@@ -1,19 +1,23 @@
 ---
 title: Reproducibility Standards for Economics
 subtitle: FOSSProF Final Report
+banner: econ-ark-logo.png
+exports:
+  - format: pdf
+    template: arxiv_nips
 ---
 
 # Project Overview
 
-**Project Title:** Reproducibility Standards for Economics
-
 ## Project Summary
 
-The Economics profession has fallen behind other fields in software development and reproducibility practices. To address this problem, [Econ-ARK] has been working on [REMARK], a set of standards and tools for reproducibility in our own work in Economics. The objective of REMARKs is to be self-contained and complete projects, whose contents should be executable by anyone on any computer that meets a minimal set of requirements and software. The goal of this project is to expand the REMARK standard to allow for the use of modern scientific publishing technologies such as Jupyter notebooks and [MyST] markdown, and extend the REMARK standard to integrate with modern scientific publishing technologies.
+The Economics profession has fallen behind other fields in software development and reproducibility practices. To address this problem, [Econ-ARK] has been working on [REMARK], a set of standards and tools for reproducibility in our own work in Economics. The objective of REMARKs is to be self-contained and complete projects, whose contents should be executable by anyone on any computer (as long as it meets a minimal set of requirements and software).
+
+The goal of this project is to expand the REMARK standard to allow for the use of modern scientific publishing technologies such as Jupyter notebooks and [MyST] markdown, and extend the REMARK standard to integrate with modern scientific publishing technologies.
 
 ## Target Audience
 
-This project is primarily targeted at the Economics profession, including students, researchers, and practitioners, who are interested in reproducibility and open science. However, this project is not limited to the field of Economics, but is intended to be a useful resource for any field that uses scientific publishing technologies.
+This project is primarily targeted at the Economics profession, including students, researchers, and practitioners, who are interested in reproducibility and open science. However, this project is not limited to the field of Economics, and is intended to be a useful resource for any field that uses scientific publishing technologies.
 
 ## Code Repository
 
