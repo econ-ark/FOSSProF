@@ -73,11 +73,18 @@ Engaging with students to produce REMARKs allowed us to gather feedback on the s
 
 At the [30th International Conference for Computing in Economics and Finance](https://comp-econ.com/30th-conference/), hosted by Nanyang Technological University in Singapore, we gave a presentation of the REMARK project and engaged with many students and researchers interested in open source software for reproducible research.
 
+:::{figure} sce_letter
+:alt: An excerpt from A Letter from the Society for Computational Economics President Lilia Maliar
+:align: center
+
+An excerpt from A Letter from the Society for Computational Economics President Lilia Maliar describing the presentation of the REMARK project at the 30th International Conference for Computing in Economics and Finance. This screenshot was taken from [the SCE website](https://comp-econ.com/).
+:::
+
 The presentation consisted of introducing the REMARK standard, showing off the capabilities of REMARKs through a demo, and discussing the benefits of reproducibility in the Economics community.
 
 After the presentation, we received feedback by a few researchers who were very interested in the REMARK standard, and were particularly eager to introduce their students to the toolset. We would love to take this presentation and workshop on the road, and introduce REMARKs to the next generation of economists.
 
-:::{iframe} https://youtu.be/ykA2L9PNgW8?si=QUVD4_MIxf2Nqf2i
+:::{iframe} https://www.youtube.com/embed/ykA2L9PNgW8?si=APVDvGG2OFzeYWNl
 :width: 100%
 A recap of the presentation we gave at CEF 2024 and a discussion of REMARKs with the [OpenSource.Science] Economics interest group.
 :::
