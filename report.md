@@ -93,6 +93,12 @@ A recap of the presentation we gave at CEF 2024 and a discussion of REMARKs with
 
 % Discuss any specific technical milestones achieved, such as code releases, documentation updates, or bug fixes. Quantify accomplishments with metrics where possible (e.g., user growth, code contributions).
 
+A major milestone of this project was the expansion of MyST compatibility with $\LaTeX$ syntax. Because many of the previous REMARKs were written in $\LaTeX$, it was important to ensure backwards compatibility and the ability to refresh existing REMARKs with new MyST capabilities. Although we have not yet reached the goal of complete backwards compatibility, we have made significant progress in this area and have made it easier to transition to the new standard. This work will continue in the future, and we welcome contributions from the open source community to help us reach this goal.
+
+Second, we started work on a `remark` command-line-interface tool that can be used to generate REMARK templates and check them against the REMARK standard. This tool also includes functionalities for building environments and running reproducibility scripts.
+
+Third, we have continued to expand the catalog of existing REMARKs, including the addition of several new REMARKs of student projects as well as active research projects both within and outside [Econ-ARK].
+
 ## Challenges and Solutions
 
 % Share any challenges encountered during the project and how you addressed them.
@@ -103,11 +109,17 @@ A recap of the presentation we gave at CEF 2024 and a discussion of REMARKs with
 
 % Describe the positive impact of the project on the Hopkins community, the open source software ecosystem, or any other relevant groups. Use concrete examples and data to support your claims where possible.
 
-The overarching objective of REMARK is to improve the reliability and trustworthiness of scientific findings within fields heavily reliant on computational methods.
+The overarching objective of REMARK is to improve the reliability and trustworthiness of scientific findings within fields heavily reliant on computational methods. By promoting the use of standardized tools and workflows, REMARK aims to make computational research in economics and social sciences more transparent and reproducible.
+
+REMARK encourages the adoption of best practices in software development, documentation, and manuscript preparation, within the economics community which has traditionally lagged behind other computational fields. Our goal is to facilityate knowledge sharing and collaboration, reduce duplication efforts, and accelerate the dissemination of knowledge within the field.
 
 ## Community Engagement
 
 % Did you actively engage with the open source community through contributions, conferences, or workshops? Share details and metrics of participation.
+
+Our team primarily engaged with the main developers of the [MyST] project through their company [Curvenote]. We set up a weekly meeting where we discussed our needs for the REMARK project as well as suggestions for how to improve the MyST project itself. The team at MyST/Curvenote is incredibly experienced and connected with the open science and publishing communities, and we have learned a lot from them.
+
+Additionally, we advocated for the use of reproducibility standards at the 30th International Conference for Computing in Economics and Finance and at the [OpenSource.Science] Economics interest group. We met with many students and researchers interested in open source software for reproducible research and advocated for the adoption of REMARKs as a standard for reproducible research in Economics.
 
 ## Sustainability and Future Plans
 
