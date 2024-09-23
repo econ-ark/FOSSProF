@@ -13,21 +13,27 @@ exports:
 
 % Briefly describe the project, its objectives, and the open source software it focused on.
 
-The Economics profession needs to catch up to other fields in software development and reproducibility practices. To address this problem, [Econ-ARK] has been working on [REMARK], a set of standards and tools for reproducibility in our work in Economics. REMARKs aims to be self-contained and complete projects whose contents should be executable by anyone on any computer (as long as it meets a minimal set of requirements and software).
+The Economics profession needs to catch up to other technical fields in software development, reproducibility practices, and "exchangability" of results.
 
-This project aims to expand the REMARK standard to allow for the use of modern scientific publishing technologies such as Jupyter notebooks and [MyST] markdown and extend the REMARK standard to integrate with modern scientific publishing technologies. A critical aspect of REMARK is the emphasis on clear documentation, testing procedures, and standardized metadata to ensure that research outputs are not only reproducible but also easily understandable and reusable
+To that end, [Econ-ARK](https://econ-ark.org) has been working for several years on the [REMARK](https://github.com/econ-ark/REMARK) project, a set of standards and tools for reproducibility for computational modeling in economics.  [REMARK] are self-contained and complete projects whose contents should be executable by anyone on any modern computer (local or cloud), so long as the platform has the necessary hardware (generically described). A critical aspect of REMARK is the emphasis on clear documentation, testing procedures, and standardized metadata to ensure that research outputs are not only reproducible but also easily understandable and reusable
+
+The design specs of the REMARK standard have been crafted with the collaboration of the editor of a projected journal that would require all submissions to abide by the REMARK standard. 
+
+While we have solved most of the computational challenges (using the blossoming ecosystem of tools including Docker containers, version control, etc), one piece of the infrastructure needed to complete the specification is still lacking: A robust, reproducible, and portable standard for production of the text of the paper (or other research product).
+
+The project sponsored by FossProf allowed us to hire a developer, \emph{CurveNote}, to fill in some crucial gaps required to translate the standard medium of technical writing, LaTeX, to the new world of lightweight reproducible content. The bulk of the other FossProf funding allowed some JHU PhD students to create new example REMARKs that use these tools.
 
 ### A brief history of REMARK
 
-The REMARK project was started as a means to enhance the sharing and reproducibility of research that utilitzed [Econ-ARK]'s software. As the development of [HARK] was mostly guided by active research, it was important to not only expand the codebase but also to integrate the code with the documentation and drafting of academic manuscripts. In Economics, however, the standard practice is to treat the research manuscript and code as separate entities, with the code being used as a tool to generate results that are posted in the manuscript but then relegated to a `.zip` file that is attached to the published paper. This practice is not only inconvenient for researchers but also limits the ability to reproduce and build upon previous work, setting back the field of Economics.
+The REMARK project started as a means to enhance the sharing and reproducibility of research that utilized the [Econ-ARK](https://econ-ark.org)'s [HARK](https://docs.econ-ark.org) toolkit. As the development of [HARK] was mostly guided by active research, it was important not only to expand the codebase but also to integrate the code with the documentation and drafting of academic manuscripts. In economics, however, the standard practice is to treat the research manuscript and code as entirely separate entities, with the code being used as a tool to generate results that are posted in the manuscript but then relegated to a `.zip` file that is attached to the published paper. This practice is not only inconvenient for researchers but also limits the ability to reproduce and build upon previous work, setting back the field of Economics.
 
-Recognizing the need to integrate the development of scientific software with the publication of research, [Econ-ARK] began working on REMARK to showcase their own work in a more comprehensive manner. As the project grew, it became clear that REMARK could be a useful tool for the broader Economics community.
+Recognizing the need to integrate the development of scientific software with the publication of research, [Econ-ARK] began working on REMARK standard to make the models and results from the toolkit easy to share. As the project grew, it became clear that REMARK could be a useful tool for the broader Economics community.
 
 ## Target Audience
 
 % Who are the primary users or beneficiaries of the project? Are there secondary groups that benefit?
 
-REMARKs origins are deeply rooted in the field of Economics, and it primarily targets students, researchers, and practitioners interested in reproducibility and open economic science. However, this project is not limited to the field of Economics and is intended to be a valuable resource for any field that uses scientific publishing technologies. As we've worked on REMARK, we've recognized the broader need for reproducible research practices, both in Economics but also in the broader Computational Social Sciences, where practitioners are increasingly interested in catching up to the standards set by open source software in other fields.
+REMARKs origins are deeply rooted in the field of Economics, and it primarily targets students, researchers, and practitioners interested in reproducibility and open economic science. However, this project is not limited to the field of Economics and is intended to be a valuable resource for any field that uses scientific publishing technologies. As we've worked on the REMARK standard, we've recognized the broader need for reproducible research practices, both in Economics but also in the broader Computational Social Sciences, where practitioners are increasingly interested in catching up to the standards set by open source software in other fields.
 
 ## Code Repository
 
