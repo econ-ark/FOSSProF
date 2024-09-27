@@ -4,7 +4,10 @@ subtitle: FOSSProF Final Report
 banner: econ-ark-logo.png
 exports:
   - format: pdf
-    template: arxiv_nips
+    template: arxiv_nips
+    output: report.pdf
+  - format: docx
+    output: report.docx
 ---
 
 # Project Overview
@@ -21,7 +24,7 @@ The design specs of the REMARK standard have been crafted with the collaboration
 
 While we have solved most of the computational challenges (using the blossoming ecosystem of tools including Docker containers, version control, etc), one piece of the infrastructure needed to complete the specification is still lacking: A robust, reproducible, and portable standard for production of the text of the paper (or other research product).
 
-The project sponsored by FossProf allowed us to hire a developer, \emph{CurveNote}, to fill in some crucial gaps required to translate the standard medium of technical writing, LaTeX, to the new world of lightweight reproducible content. The bulk of the other FossProf funding allowed some JHU PhD students to create new example REMARKs that use these tools.
+The project sponsored by FossProf allowed us to hire a developer, *Curvenote*, to fill in some crucial gaps required to translate the standard medium of technical writing, $\LaTeX$, to the new world of lightweight reproducible content. The bulk of the other FossProf funding allowed some JHU PhD students to create new example REMARKs that use these tools.
 
 ### A brief history of REMARK
 
@@ -147,15 +150,26 @@ It is important to note that renaming REMARK is not merely a cosmetic change, bu
 
 :::
 
-### Cultivating Community Ownership and Contribution
 
 ### Adapting to Evolving Research Practices
 
-### Securing Financial Support
+To be successful, the REMARK/SCI-PASS project will need to embrace modern publishing technologies. Recognizing the limitations of $\LaTeX$, this grant helped us integrate modern scientific publishing tools like Jupyter Notebooks and MyST Markdown. This shift toward the Executable Books ecosystem is intented to enhance user-friendliness, interactivity, and accessibility for researchers. In the long-term, we aim to further integrate with open science infrastructure, such as established open science publishing platforms for peer-review and publishing like [Open Journals](https://theoj.org/) and [The Journal of Open Source Software](https://joss.theoj.org/). 
 
-### Taking the project on the road
+While REMARK currently focuses on `python` software, we are commited to expanding langauge support to accomodate the diverse set of tools used in computational research. This expansion aims to broaden the project's reach and applicability across disciplines. Moreover, the project's long-term sustainability depends on active community engagement, which includes collaborating with journal and data editors, organizing workshops and tutorials, and establishing an independent board of advisors with expertise in computational science, library science, and relevant research domains. By embracing these adaptations, the REMARK/SCI-PASS project aims to evolve into a robust and sustainable standard for reproducible research, aligning with evolving practices and solidyfing its place withint the future of open science. 
 
-## Lessons Learned
+
+### Taking REMARK/SCI-PASS on the road
+
+This grant allowed us to host a workshop at the 30th International Conference for Computing in Economics and Finance in Singapore, where we discussed open science, reproducibility, and the REMARK standard. The experience and feedback we gathered was incredibly valuable, and we are eager to take the project on the road to more conferences and events. Below we describe a few of the ways in which we plan to advocate for open science and reproducibility:
+
+1. **Replication Competitions** - Competitions where researchers are challenged to replicate the results of notable papers, which will provide a practical demonstration of the REMARK standard and incentivize adoption. 
+2. **Tutorials and Workshops** - Target students and researchers to provide hands-on experience using our tools, demonstrating how to create reproducible research outputs and higlighting the advantages of open science. 
+3. **Talks** - Engage with journal editors and data editors to seek feedback and collaboration, to get a better sense of how our project can streamline review process, ensure reproduciblity, and enhance the credibility of published research. 
+
+By combining these outreach efforts, the REMARK/SCI-PASS project can expand its reach and encourage wider adoption. 
+
+
+% ## Lessons Learned
 
 % Share key takeaways and insights gained from the project.
 
@@ -171,11 +185,11 @@ It is important to note that renaming REMARK is not merely a cosmetic change, bu
 
 :::{attention}
 
-Please see attached Financial Report for a detailed breakdown of the grant funds used. 
+Please see attached Financial Report for a detailed breakdown of how the grant funds were used. 
 
 :::
 
-The majority of the funds were used to contract with Curvenote to integrate the MyST tools into the REMARK project. We also supported the work of three Johns Hopkins University PhD students over the summer of 2024 to produce REMARKs of their projects. Finally, we hosted a workshop at the 30th International Conference for Computing in Economics and Finance in Singapore, and used the remaining funds for travel and lodging. 
+The majority of the funds were used to contract with Curvenote to integrate the MyST tools into the REMARK project. We also supported the work of three Johns Hopkins University PhD students over the summer of 2024 to produce REMARKs of their ongoing research projects. Finally, we hosted a workshop at the 30th International Conference for Computing in Economics and Finance in Singapore, and used the remaining funds for travel and lodging. 
 
 
 
