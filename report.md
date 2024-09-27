@@ -133,6 +133,20 @@ Additionally, we advocated for the use of reproducibility standards at the 30th 
 
 ### Renaming the project
 
+The need for REMARK arose from our desire to make our own research more reproducible and to share our work with others. However, our engagement with the broader community has highlighted the need for reproducibility standards beyond our application and field. Currently, REMARK stands for "R[eplications]/[eproductions] and Explorations Made using ARK", clearly linking it to the Econ-ARK project. This close association can be perceived as a limitation, creating confusion and potentially hindering broader adoption. 
+
+To address this issue, we have discussed internally the need to rename the project into **"SCI-PASS"**, which stands for "Scholarly Communication Infrastructure for Publishing and Archiving Scientific Software". This name change signifies a strategic shift toward establishing a more universal and inclusive standard for reproducible scientific software. Moreover, it clearly communicates the project's purpose and intended scope, eliminating the misconception that it's solely tied to Econ-ARK or Python. This language-agnostic standard has the potential to attract a wider range of researchers and institutions, fostering greater collaboration and advancing the practice of reproducible research across diciplines. 
+
+It is important to note that renaming REMARK is not merely a cosmetic change, but rather a crucial step toward building a robust and sustainable ecosystem for reproducible research. The evolution of the project involves developing a comprehensive roadmap for implementation which includes overcoming technical obstacles, establishing clear metadata guidelines, and creating user-friedly tools and resources to facilitate broad applicability and adoption. Additionally, we will continue to actively engage with the scientific community to promote the standard and foster collaboration, including establishing communication channels with journal editors, data editors, and researchers from diverse fields. In essence, "SCI-PASS" represents a pivotal step toward achieving the project's ambitious goals of promoting and standardizing reproducible research practices across the scientific community. As such, we also consider "SCI-PASS" as short for "scientific passport", a term that encapsulates the idea of portability and exchangeability of research outputs.
+
+:::{important}
+
+**SCI-PASS** stands for:
+1. *Scholarly Communication Infrastructure for Publishing and Archiving Scientific Software* - a new name for the REMARK project to better reflect its scope and potential for broader adoption.
+2. *Scientific Passport* - enables scientific software to be portable across different environments. 
+
+:::
+
 ### Cultivating Community Ownership and Contribution
 
 ### Adapting to Evolving Research Practices
@@ -155,7 +169,17 @@ Additionally, we advocated for the use of reproducibility standards at the 30th 
 
 % Provide a detailed breakdown of how the grant funds were used. This should be consistent with the approved budget in the grant proposal.
 
-## Budget Variance
+:::{attention}
+
+Please see attached Financial Report for a detailed breakdown of the grant funds used. 
+
+:::
+
+The majority of the funds were used to contract with Curvenote to integrate the MyST tools into the REMARK project. We also supported the work of three Johns Hopkins University PhD students over the summer of 2024 to produce REMARKs of their projects. Finally, we hosted a workshop at the 30th International Conference for Computing in Economics and Finance in Singapore, and used the remaining funds for travel and lodging. 
+
+
+
+% ## Budget Variance
 
 % Explain any significant deviations from the original budget.
 
