@@ -8,6 +8,8 @@ exports:
     output: report.pdf
   - format: docx
     output: report.docx
+acknowledgements: |
+  This project was funded by the [Johns Hopkins University](https://jhu.edu) [Open Source Programs Office](https://ospo.library.jhu.edu/) and the [Alfred P. Sloan Foundation](https://sloan.org).
 ---
 
 # Project Overview
