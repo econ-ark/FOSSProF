@@ -3,7 +3,7 @@ title: Reproducibility Standards for Economics
 subtitle: FOSSProF Final Report
 banner: econ-ark-logo.png
 exports:
-  - format: pdf
+  - format: tex+pdf
     template: arxiv_nips
     output: report.pdf
   - format: docx
@@ -77,9 +77,17 @@ This was necessary because among economists (and in many other technical fields)
 
 ### Student generation of REMARKs
 
-We also used this grant to support the work of three Johns Hopkins University PhD students, [John Green](mailto:<jgree199@jhu.edu>), [Adam Edwards](mailto:<edwardsadam01@gmail.com>), and [Ashish Kumar](mailto:ashish.econ@gmail.com), in the Department of Economics, for the development of REMARKs based on papers relevant to their dissertation research.
+We also used this grant to support the work of three Johns Hopkins University PhD students, [John Green](https://github.com/JohnRGreen/ImaiKeane_replication), [Adam Edwards](https://github.com/Adam-Edwards-JHU/Aiyagari1994QJE), and [Ashish Kumar](https://github.com/ashishk87/DeNardi_2004_replication), in the Department of Economics, for the development of REMARKs based on papers relevant to their dissertation research.
 
 Engaging with students to produce REMARKs allowed us to gather feedback on the standard and to improve the documentation and tools available to researchers. Moreover, it will allow these students to produce high-quality, reproducible, and portable research that can be used as part of their job market and portfolio of materials. We hope this will lead to more visibility and exposure for their research.
+
+:::{seealso}
+
+- [John Green's Imai and Keane (2004) replication](https://github.com/JohnRGreen/ImaiKeane_replication)
+- [Adam Edwards' Aiyagari (1994)  Replication](https://github.com/Adam-Edwards-JHU/Aiyagari1994QJE)
+- [Ashish Kumar's DeNardi (2004) Replication](https://github.com/ashishk87/DeNardi_2004_replication)
+
+:::
 
 ### Presentation of REMARK project at [CEF 2024](https://comp-econ.com/30th-conference/)
 
