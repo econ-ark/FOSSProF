@@ -20,13 +20,15 @@ acknowledgments: |
 
 The Economics profession needs to catch up to other technical fields in software development, reproducibility practices, and "exchangeability" of results.
 
-To that end, [Econ-ARK](https://econ-ark.org) has been working for several years on the [REMARK](https://github.com/econ-ark/REMARK) project, a set of standards and tools for reproducibility for computational modeling in economics. [REMARKs](https://econ-ark.org/materials/) are self-contained and complete projects whose contents should be executable by anyone on any modern computer (local or cloud), so long as the platform has the necessary hardware (generically described). A critical aspect of REMARKs is the emphasis on clear documentation, testing procedures, and standardized metadata to ensure that research outputs are reproducible, understandable, reusable, and securely attributable to their true authors.
+To that end, [Econ-ARK](https://econ-ark.org) has been working for several years on the [REMARK](https://github.com/econ-ark/REMARK) project, a set of standards and tools for reproducibility for computational modeling in economics. [REMARKs](https://econ-ark.org/materials/) are self-contained and complete projects whose contents should be executable by anyone on any modern computer (local or cloud), so long as the platform has the necessary hardware (generically described)[^hardware]. A critical aspect of REMARKs is the emphasis on clear documentation, testing procedures, and standardized metadata to ensure that research outputs are reproducible, understandable, reusable, and securely attributable to their true authors.
+
+[^hardware]: The hardware specification is inherently contingent on the specific computational task. However, REMARK aims to provide comprehensive instructions, enabling users to at least build the environment on any modern computer. While the execution of computationally intensive projects may necessitate specialized hardware, such as GPUs or extensive memory capacity, the software environment should remain universally accessible. 
 
 The design specs of the REMARK standard have been crafted with the collaboration of the editor of a projected journal that would require all submissions to abide by the REMARK standard.
 
 While we have solved most of the computational challenges (using the blossoming ecosystem of tools including Docker containers, version control, etc.), one piece of the infrastructure needed to complete the specification is still lacking: A robust, reproducible, and portable standard for the production of the text of the paper (or other research product) that can directly integrate reproducible content.
 
-The project sponsored by FossProf allowed us to hire an open-source contractor, [Curvenote](https://curvenote.com), to fill some crucial gaps in the infrastructure necessary to translate the standard medium of technical writing, $\LaTeX$, to the new world of lightweight, reproducible content. The bulk of the other FossProf funding allowed some JHU PhD students to create new examples of REMARKs that use these tools.
+The project sponsored by FOSSProF allowed us to hire an open-source contractor, [Curvenote](https://curvenote.com), to fill some crucial gaps in the infrastructure necessary to translate the standard medium of technical writing, $\LaTeX$, to the new world of lightweight, reproducible content. The bulk of the other FOSSProF funding allowed some JHU PhD students to create new examples of REMARKs that use these tools.
 
 ### A brief history of REMARK
 
@@ -123,7 +125,7 @@ Third, we have continued to expand the catalog of existing REMARKs, including se
 
 % Share any challenges encountered during the project and how you addressed them.
 
-The project has gone quite smoothly, thanks to the deep expertise and strongly aligned goals of the REMARK project with the Myst project. The principal challenge is simply that making use of the new technologies requires an investment of time, which is the scarcest resource among busy scholars.
+The project has gone quite smoothly, thanks to the deep expertise and strongly aligned goals of the REMARK project with the Myst project. **The principal challenge is simply that making use of the new technologies requires an investment of time, which is the scarcest resource among busy scholars.**
 
 # Outcomes and Impact
 
@@ -178,7 +180,7 @@ This grant allowed us to host a workshop at the 30th International Conference fo
 
 1. **Replication Competitions** - Competitions where researchers are challenged to replicate the results of notable papers, which will provide a practical demonstration of the REMARK standard and incentivize adoption.
 2. **Tutorials and Workshops** - Target students and researchers to provide hands-on experience using our tools, demonstrating how to create reproducible research outputs and highlighting the advantages of open science.
-3. **Talks** - Engage with journal editors and data editors to seek feedback and collaboration to understand better how our project can streamline the review process, ensure reproducibility, and enhance the credibility of published research.
+3. **SCI-PASS Talks** - Engage with journal editors and data editors to seek feedback and collaboration to understand better how our project can streamline the review process, ensure reproducibility, and enhance the credibility of published research.
 
 % ## Lessons Learned
 
