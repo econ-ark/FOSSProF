@@ -37,6 +37,8 @@ jobs:
         run: npm install -g mystmd
       - name: Build HTML Assets
         run: myst build --html
+      - name: Move presentation 
+        run: mv presentation.html _build/html/presentation.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
