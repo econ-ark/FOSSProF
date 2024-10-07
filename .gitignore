@@ -627,3 +627,5 @@ private
 *.el
 .ipynb_checkpoints/
 .ipynb_checkpoints/presentation-checkpoint.ipynb
+# MyST build outputs
+_build
