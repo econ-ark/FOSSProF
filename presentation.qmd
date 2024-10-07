@@ -1,0 +1,126 @@
+---
+title: Reproducibility Standards in Economics (and beyond)
+subtitle: JHU FOSSProF Summative Event
+format: 
+  clean-revealjs:
+    self-contained: true
+html-math-method:
+  method: mathjax
+  url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+author:
+  - name: Alan Lujan
+    orcid: 0000-0002-5289-7054
+    email: alujan@jhu.edu
+    affiliations: Johns Hopkins University AAP
+  - name: Chris Carroll
+    orcid: 0000-0003-3732-9312
+    email: ccarroll@jhu.edu
+    affiliations: Johns Hopkins University
+date: last-modified
+---
+
+## [REMARK](https://github.com/econ-ark/REMARK) Motivation
+
+- Econ lags in reproducibility practices
+- State of field: for _published_ papers
+  - `.zip` archive has *some files*
+    - rarely works 'out of the box'
+  - Top-5 journals have a 'data editor'
+      - Very expensive
+      - Excellent barrier to competition
+
+## [Econ-ARK](https://econ-ark.org) REMARK solutions
+
+- _Standards_ for reproducibility of compute
+    - self-contained and complete projects
+    - executable on any modern computer
+      
+
+- Emphasis on:
+    - minimally good code
+      - enforced algorithmically
+      - would be huge improvement
+      - "ChatGPT, fix my documentation"
+    - explicit claims ("Risk Aversion: [2.5,3.5]")
+    - standardized metadata
+
+## REMARK Library: [About 23+3](https://econ-ark.org/materials)
+
+- Many replicating canonical papers
+
+- Three new ones created for FossProF:
+    - [Imai_Keane (2004) by John Green](https://github.com/JohnRGreen/ImaiKeane_replication)
+    - [DeNardi (2004) by Ashish Kumar](https://github.com/ashishk87/DeNardi_2004_replication)
+    - [Aiyagari (1994) by Adam Edwards](https://github.com/Adam-Edwards-JHU/Aiyagari1994QJE)
+    
+- Paul Romer:
+  - This is the future of academic publishing
+
+## _Jointly_ Reproducible: Code and Math and Text
+
+- Solved: most computational aspects
+    - [Docker containers](https://docker.com) for universality
+      - Linux, Windows, MacOS, AWS, ...
+    - version control (git/[GitHub](https://github.com)) = ownership
+    - [cff references](https://citation-file-format.github.io/) make it findable/indexable
+    - [Zenodo](https://zenodo.org): independent "release" archiving
+
+## Math and Text _with_ Code?
+- [LaTeX](https://www.tug.org/texlive/) is standard for text, but...
+    - definitely *not lightweight*
+    - no dynamically executable content
+- Now: tenuous connection _between_ text and code
+  - "where is equation 18 implemented"?
+    - in a gestalt of interactions
+- Future:
+  - ["this math: implemented by this code"](https://econ-ark.org/materials/bufferstocktheory)
+
+## FOSSProF $\rightarrow$ [Curvenote](https://curvenote.com/)
+
+Funding let us hire open source contractor
+- To do things we could not do
+
+### At our direction:
+- Integrated [MyST Markdown](https://mystmd.org/) into REMARK
+- Filled gaps in tools to integrate text, math, and code
+- Improved LaTeX $\rightarrow$ MyST engine
+  - Tools required for some of our REMARKs
+
+## Curvenote: $\LaTeX$
+
+![](CNlatexImprovements.png)
+
+## Curvenote: Computation
+![](CNexamples.png)
+
+## Journal of Open Source Economics
+
+<a href="https://josecon.curve.space/articles/018dc338-e64c-7c68-9b37-4f3d092f4252" target="_blank">
+ <img src="compute.png" />
+</a>
+
+## Not Specific to Economics!
+
+- conceived for projects using [Econ-ARK](https://docs.econ-ark.org)
+  - ... but doesn't require Econ-ARK
+- Not bound to economics *in any way*
+
+## Rebranding: REMARK $\rightarrow$ SCI-PASS
+
+- **S**cholarly **C**ommunication **I**nfrastructure for **P**ublishing and **A**rchiving **S**cientific **S**oftware
+- Ambition:
+  -  universal standard for repr compute
+     -  nothing now exists (we've looked)
+- Also short for “**sci**entific **pass**port”
+  - portability/sharing of research outputs
+
+## Long-Term Goal: ISO standard
+
+- Adoptable by journals, libraries, archives ...
+- Existing software standards got started this way
+  - Somebody needed it for their own purposes
+- Members of our team:
+  - SB: "Information Science" PhD
+    - connection to archivists, librarians
+  - AS: Economics PhD
+    - Vetted ISO software standards for Oz
