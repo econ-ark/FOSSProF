@@ -28,6 +28,7 @@ date: last-modified
   - Top-5 journals have a 'data editor'
       - Very expensive
       - Excellent barrier to competition
+      - Data $\neq$ results
 
 ## [Econ-ARK](https://econ-ark.org) REMARK solutions
 
@@ -44,7 +45,7 @@ date: last-modified
     - explicit claims ("Risk Aversion: [2.5,3.5]")
     - standardized metadata
 
-## REMARK Library: [About 23+3](https://econ-ark.org/materials)
+## So Far: [About 23+3 REMARKs](https://econ-ark.org/materials)
 
 - Many replicating canonical papers
 
@@ -66,7 +67,7 @@ date: last-modified
     - [Zenodo](https://zenodo.org): independent "release" archiving
 
 ## Math and Text _with_ Code?
-- [LaTeX](https://www.tug.org/texlive/) is standard for text, but...
+- [$\LaTeX$](https://www.tug.org/texlive/) is standard for text, but...
     - definitely *not lightweight*
     - no dynamically executable content
 - Now: tenuous connection _between_ text and code
@@ -83,8 +84,10 @@ Funding let us hire open source contractor
 ### At our direction:
 - Integrated [MyST Markdown](https://mystmd.org/) into REMARK
 - Filled gaps in tools to integrate text, math, and code
-- Improved LaTeX $\rightarrow$ MyST engine
+- Improved $\LaTeX$ $\rightarrow$ MyST engine
   - Tools required for some of our REMARKs
+
+### [Link to FOSSProF Final Report](https://econ-ark.github.io/FOSSProF/)
 
 ## Curvenote: $\LaTeX$
 
